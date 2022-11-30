@@ -1,0 +1,25 @@
+{
+  "name": "no-use-before-define",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelvinOm/no-use-before-define.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KelvinOm/no-use-before-define/issues"
+  },
+  "homepage": "https://github.com/KelvinOm/no-use-before-define#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.3"
+  }
+}
